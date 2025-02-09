@@ -12,55 +12,25 @@
     <!-- partial:index.partial.html -->
     <body class="container">
         <div class="welcome-wrap">
-            <h1 class="welcome-heading">Happy birth day!!!</h1>
+            <h1 class="welcome-heading">Valentine</h1>
             <button class="welcome-btn">Nhấn</button>
         </div>
 
         <section class="card card-wish hidden">
-            <div class="card-title">9-2-2025</div>
+            <div class="card-title">14-2-2025</div>
             <div class="card-content">
                 <p class="card-desc line-clamp">
-                    // function showFlowers() { // // Lấy element chứa văn bản và nút // var centerContainer =
-                    document.querySelector('.center-container'); // centerContainer.style.opacity = '0'; //
-                    centerContainer.style.visibility = 'hidden'; // centerContainer.remove(); // // Tạo container chứa
-                    các ảnh bay lên nếu chưa có // let flyingImagesContainer = document.querySelector('.flying-images');
-                    // if (!flyingImagesContainer) { // flyingImagesContainer = document.createElement('div'); //
-                    flyingImagesContainer.className = 'flying-images'; //
-                    document.body.appendChild(flyingImagesContainer); // } // const numImages = 10; // Số lượng ảnh bay
-                    lên // // Tạo và thêm các ảnh vào flyingImagesContainer // for (let i = 0; i < numImages; i++) { //
-                    createAndAnimateImage(i); // } // // Hiển thị container chính ngay lập tức //
-                    document.querySelector('.not-loaded').classList.remove('not-loaded'); // } // Lấy các phần tử từ DOM
-                    const welcomeBtn = document.querySelector(".welcome-btn"); const welcomeWrap =
-                    document.querySelector(".welcome-wrap"); const cardWish = document.querySelector(".card-wish");
-                    const cardImgs = document.querySelector(".card-imgs"); const birthdayAudio =
-                    document.getElementById("birthday-audio"); // Thêm sự kiện click vào nút
-                    welcomeBtn.addEventListener("click", () => { // Ẩn phần tử welcome-wrap
-                    welcomeWrap.classList.add("hidden"); // Hiển thị card-wish và card-imgs
-                    cardWish.classList.remove("hidden"); cardWish.classList.add("show");
-                    cardImgs.classList.remove("hidden"); cardImgs.classList.add("show"); birthdayAudio.play();
-                    document.querySelector('.not-loaded').classList.remove('not-loaded'); }); const images =
-                    document.querySelectorAll('.card-img'); // Lấy tất cả các ảnh let currentIndex = 0; // Ẩn tất cả ảnh
-                    trừ ảnh đầu tiên images.forEach((img, index) => { if (index !== 0) { img.classList.add('hidden'); }
-                    else { img.classList.add('show'); // Ảnh đầu tiên hiển thị } }); // Hàm đổi ảnh với hiệu ứng
-                    function switchImage() { images[currentIndex].classList.remove('show'); // Bỏ hiệu ứng hiển thị
-                    images[currentIndex].classList.add('hidden'); // Ẩn ảnh hiện tại // Chuyển sang ảnh tiếp theo
-                    currentIndex = (currentIndex + 1) % images.length; images[currentIndex].classList.remove('hidden');
-                    // Xóa ẩn images[currentIndex].classList.add('show'); // Thêm hiệu ứng hiển thị } // Thực hiện đổi
-                    ảnh mỗi 3 giây setInterval(switchImage, 3000);
+                    
                 </p>
             </div>
         </section>
 
         <section class="card card-imgs hidden">
-            <img class="card-img" src="./img/z5159071009481_5013d4771d77b2c0ac688258cec27425.jpg" alt="" />
-            <img class="card-img" src="./img/z5159071018144_2aa3ba68e6b316ec50f8d03afb0cd181.jpg" alt="" />
-            <img class="card-img" src="./img/z5159071150571_2945f19e1b1f174282007f4a03e72b21.jpg" alt="" />
-            <img class="card-img" src="./img/z5159071159526_c9d7bf653eb88e989bfadf1110249b4d.jpg" alt="" />
-            <img class="card-img" src="./img/z5159071175088_949ba5c348fed0106e9721319a1b41b5.jpg" alt="" />
+            <img class="card-img" src="./img/9ad2785d-a2d8-4da0-8d70-da7e6e5f3e04.jfif" alt="" />
+            
+
         </section>
-
-        <audio id="birthday-audio" src="./music/Vết Mưa - Vũ Cát Tường - Piano Cover.mp3"></audio>
-
+        <audio id="birthday-audio" src="/music/y2meta.com - HAPPY BIRTHDAY REMIX - DJ MARTIN GARRIX (TO ME 1108) (128 kbps).mp3"></audio>
         <div class="night"></div>
         <div class="flowers">
             <div class="flower flower--1">
