@@ -1,27 +1,4 @@
-// function showFlowers() {
-//     // Lấy element chứa văn bản và nút
-//     var centerContainer = document.querySelector('.center-container');
-//     centerContainer.style.opacity = '0';
-//     centerContainer.style.visibility = 'hidden';
-//     centerContainer.remove();
-//     // Tạo container chứa các ảnh bay lên nếu chưa có
-//     let flyingImagesContainer = document.querySelector('.flying-images');
-//     if (!flyingImagesContainer) {
-//         flyingImagesContainer = document.createElement('div');
-//         flyingImagesContainer.className = 'flying-images';
-//         document.body.appendChild(flyingImagesContainer);
-//     }
 
-//     const numImages = 10; // Số lượng ảnh bay lên
-
-//     // Tạo và thêm các ảnh vào flyingImagesContainer
-//     for (let i = 0; i < numImages; i++) {
-//         createAndAnimateImage(i);
-//     }
-
-//     // Hiển thị container chính ngay lập tức
-//     document.querySelector('.not-loaded').classList.remove('not-loaded');
-// }
 
 // Lấy các phần tử từ DOM
 const welcomeBtn = document.querySelector(".welcome-btn");
